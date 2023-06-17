@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: King;
+    src: url(/fonts/Kind\ Regards.ttf);
+}
+body{
+    height: 100vh;
+    background-color: #e5e5e5;
+    background-image: url(/eclipse.png) , url(/eclipse2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right , bottom left;
+    background-attachment: inherit, inherit;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+  

@@ -1,0 +1,93 @@
+.container{
+    margin: 10em;
+    margin-top: 6em;
+    
+}
+.mohamed{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3B78E5;
+}
+.socials{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #CA7F12;  
+}
+.line{
+    height: 1px;
+    width:120.42px;
+    align-self: center;
+}
+.line2{
+    height: 1px;
+    width:165.42px;
+    align-self: center;
+}
+.bring{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: #1F2937;
+    width: 507.64px;
+}
+.blue{
+    color: #3B78E5;
+}
+.sol{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    width: 652.84px;
+    color: #6B7280;
+}
+.view{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    background: #3B78E5;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 242.01px;
+    height: 95.62px;
+}
+.view:hover{
+    transform: scale(1.05);
+}
+
+.hero{
+    width: 628px;
+    height: 474px;
+}
+.eclipse{
+    position: absolute;
+    width: 743px;
+    height: 731px;
+    left: 1264px;
+    top: -80px;
+}
+.logo{
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.05);
+}

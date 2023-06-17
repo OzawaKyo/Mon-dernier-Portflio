@@ -1,0 +1,50 @@
+nav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6B7280;
+    margin: 9em;
+    margin-top: 2em;
+    margin-bottom: 2em;   
+}
+.navlist{
+    cursor: pointer;
+}
+.navlist:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+.ozawa{
+    font-family: 'King';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 28px;
+    color: #3B78E5;
+    cursor: pointer;
+}
+.ozawa:hover{
+    transform: scale(1.02);
+}
+.lets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 68px;
+    gap: 10px;
+    background: #ECEBEC;
+    border-radius: 6px;
+    color: #CA7F12;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+@media (max) {
+    
+}
