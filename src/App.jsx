@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <div className='bodyy'>
+        <Home />
+      </div>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import hero from '/hero.png'
+import hero from '/hero2.png'
 import line from '/line.png'
 import line2 from '/line2.png'
 import git from '/git.png'
@@ -8,7 +8,7 @@ import ig from '/ig.png'
 import './Home.css'
 export default function Home(){
     return(
-        <div className='container flex flex-row justify-between content-center'>
+        <div className='container flex flex-row content-center'>
             <div className='ideas flex flex-col gap-11'>
                 <div className='flex flex-row gap-2 '>
                     <img className='line' src={line} />
