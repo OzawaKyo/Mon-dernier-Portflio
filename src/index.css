@@ -9,10 +9,10 @@
 body{
     height: 100vh;
     background-color: #e5e5e5;
-    background-image: url(/eclipse.png) , url(/eclipse3.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top right , -300px 700px;
-    background-attachment: inherit, local;
+    background-image: url(/eclipse.png);
+    background-repeat: no-repeat;
+    background-position: top right ;
+    background-attachment: inherit;
     margin: 0;
 }
 ::-webkit-scrollbar {
@@ -20,18 +20,19 @@ body{
   }
 @media (max-width:1550px) {
     body{
-        background-size: 28% , 40%;
+        background-size: 28% ;
+        background-position: top right ;
     }
 }
 @media (max-width:1400px) {
     body{
-            background-size: 29% , 40%;
-            background-position: top right , -200px 650px;
+            background-size: 29% ;
+            background-position: top right ;
         }
 }
 @media (max-width:1000px) {
     body{
-            background-size: 25% , 40%;
+            background-size: 25% ;
         }
 }
 @media (max-width:850px) {
@@ -42,8 +43,8 @@ body{
 }
 @media (max-width:450px) {
     body{
-        background-position: top right , -200px 1000px;
-        background-size: 35%,100% ;
+        background-position: top right;
+        background-size: 35%;
     }
     
 }

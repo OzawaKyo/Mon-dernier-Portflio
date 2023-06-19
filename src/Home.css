@@ -9,7 +9,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    color: #3B78E5;
+    color: #219EBC;
 }
 .socials{
     font-family: 'Inter';
@@ -17,7 +17,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    color: #CA7F12;  
+    color: #FB8500;  
 }
 .line{
     height: 1px;
@@ -39,7 +39,7 @@
     width: 507.64px;
 }
 .blue{
-    color: #3B78E5;
+    color: #219EBC;
 }
 .sol{
     font-family: 'Inter';
@@ -57,7 +57,7 @@
     align-items: center;
     padding: 12px 32px;
     gap: 10px;
-    background: #3B78E5;
+    background: #219EBC;
     border-radius: 6px;
     color: #FFFFFF;
     font-family: 'Inter';
@@ -152,9 +152,9 @@
 }
 @media (max-width:1280px) {
     .container{
-        margin:0em;
+        margin:5em;
         margin-top: 2em;
-        /* justify-content: space-between !important; */
+        justify-content: space-around ;
     }
     .hero{
         width: 318px;
@@ -188,11 +188,11 @@
 }
 @media (max-width:1025px) {
     .container{
-        margin: 0;
+        margin: 7em;
         margin-top: 2em;
         margin-bottom: 5em;
         flex-direction: column !important;
-        align-items: center ;
+        align-items:  center;
         gap: 6em;
         align-self: center !important;
     }
@@ -202,9 +202,26 @@
         align-items: center;
     }
 }
-@media (max-width:500px) {
+@media (max-width:900px) {
+    .container{
+        margin: 2em;
+    }
     .ideas{
-        margin-left:4em;
+        margin-left:0em;
+    }
+    .sol{
+        width: 400px;
+    }
+}
+@media (max-width:600px) {
+    .container{
+        margin-left: 0;
+    }
+    .ideas{
+        margin-left:0em;
+    }
+    .sol{
+        width: 400px;
     }
 }
 @media (max-width:440px) {

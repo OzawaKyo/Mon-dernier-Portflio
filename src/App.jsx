@@ -1,14 +1,14 @@
 import Home from './Home'
 import Navbar from './Navbar'
+import Skill from './Skill'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <div className='bodyy'>
-        <Home />
-      </div>
+      <Home />
+      <Skill />
     </>
   )
 }
