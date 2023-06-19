@@ -9,31 +9,41 @@
 body{
     height: 100vh;
     background-color: #e5e5e5;
-    background-image: url(/eclipse.png) , url(/eclipse2.png);
+    background-image: url(/eclipse.png) , url(/eclipse3.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top right , bottom left;
+    background-position: top right , -300px 700px;
     background-attachment: inherit, local;
     margin: 0;
 }
 ::-webkit-scrollbar {
     display: none;
   }
+@media (max-width:1550px) {
+    body{
+        background-size: 28% , 40%;
+    }
+}
 @media (max-width:1400px) {
     body{
-            height: 100vh;
-            background-size: 29%;
+            background-size: 29% , 40%;
+            background-position: top right , -200px 650px;
         }
 }
 @media (max-width:1000px) {
     body{
-            height: 100vh;
-            background-size: 25%;
+            background-size: 25% , 40%;
         }
 }
 @media (max-width:850px) {
     body{
-            height: 100vh;
             background-size: 35%;
         }
+    
 }
-  
+@media (max-width:450px) {
+    body{
+        background-position: top right , -200px 1000px;
+        background-size: 35%,100% ;
+    }
+    
+}
