@@ -14,6 +14,7 @@ body{
     background-position: top right ;
     background-attachment: inherit;
     margin: 0;
+    scroll-behavior:smooth;
 }
 ::-webkit-scrollbar {
     display: none;

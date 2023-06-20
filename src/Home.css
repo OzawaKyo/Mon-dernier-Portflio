@@ -2,6 +2,14 @@
     margin: 8em;
     margin-top: 6em;
     justify-content: space-evenly;
+    /* height: 100vh; */
+    margin-bottom: 5em !important;
+}
+@media (max-width:1050px) {
+    .container{
+        height: auto;
+        margin-top: 5em !important;
+    }
 }
 .mohamed{
     font-family: 'Inter';
@@ -62,7 +70,7 @@
     color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     width: 242.01px;

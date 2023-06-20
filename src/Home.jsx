@@ -18,7 +18,7 @@ export default function Home(){
                 <p className="sol">Transforming complex ideas into elegant and scalable front-end solutions.</p>
                 <button className="view">View My Work</button>
             </div>
-            <div className='flex flex-col items-center justify-center gap-16'>
+            <div className='flex flex-col items-center gap-16'>
                 <img className='hero' src={hero}  />
                 <div className='flex flex-col gap-5'>
                     <div className='flex flex-row gap-2 justify-center'>
