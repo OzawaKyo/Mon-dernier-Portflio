@@ -35,7 +35,7 @@ export default function Work() {
                             </div>
                             <div className='stacks flex'>
                                 <h4 className='stackk'>Firebase</h4>
-                                <h4 className='stackk'>Django</h4>
+                                {/* <h4 className='stackk'>Django</h4> */}
                                 <h4 className='stackk'>React</h4>
                             </div>
                         </div>

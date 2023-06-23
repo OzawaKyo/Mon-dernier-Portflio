@@ -156,12 +156,22 @@
         font-size: 35px;
     }
     .projects{
+        background-image: none;
         margin: 1em;
         padding: 1em;
         padding-top: 6em;
     }
     .mockup{
         width: 80%;
+    }
+    .featured{
+        font-size: 17px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .stackk{
+        font-size: 17px;
     }
 }
 @media (max-width:450px) {
