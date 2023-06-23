@@ -92,6 +92,9 @@
         font-size: 18px;
         width: 490px;
     }
+    .projects{
+        padding: 4em;
+    }
 }
 @media (max-width:1270px) {
     .box{
@@ -102,5 +105,70 @@
         font-size: 17px;
         width: 370px;
         height: 150px;
+    }
+}
+@media (max-width:1200px) {
+    .projects{
+        padding: 2em;
+    }
+    .things{
+        font-size: 50px;
+    }
+}
+@media (max-width:1100px) {
+    .box{
+        width: 400px;
+        height: 150px;
+    }
+    .description{
+        font-size: 13px;
+        width: 350px;
+        height: 120px;
+    }
+}
+@media (max-width:950px) {
+    .things{
+        font-size: 45px;
+    }
+    .project{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .pro2{
+        flex-direction: column-reverse;
+    }
+    .projects{
+        padding: 5em;
+    }
+    .mockup{
+        width: 100%;
+        margin-right: 0.5em;
+    }
+    .desc{
+        align-items: center !important;
+    }
+    .featured{
+        padding: 0;
+    }
+}
+@media (max-width:610px) {
+    .things{
+        font-size: 35px;
+    }
+    .projects{
+        margin: 1em;
+        padding: 1em;
+        padding-top: 6em;
+    }
+    .mockup{
+        width: 80%;
+    }
+}
+@media (max-width:450px) {
+    .projects{
+        margin: 0;
+        margin-top: 3em;
+        padding: 0em;
+        padding-top: 6em;
     }
 }

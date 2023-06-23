@@ -11,7 +11,7 @@ function App() {
       <Home />
       <Skill />
       <Work />
-      <Home />
+      {/* <Home /> */}
     </>
   )
 }
