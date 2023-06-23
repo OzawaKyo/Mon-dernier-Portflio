@@ -2,11 +2,11 @@ import './Work.css'
 import mockup from '/mockup.png'
 import mockup2 from '/mockup2.png'
 import mockup3 from '/mockup3.png'
-import line from '/line5.png'
+// import line from '/line5.png'
 
 export default function Work() {
     return(
-            <div className="work flex flex-col items-center">
+            <div className="work flex flex-col items-center" id='works'>
                 <h1 className='things'><span className='blue'>Some Things</span> I've Built</h1>
                 <div className='projects flex flex-col'>
                     <div className='project flex justify-between items-center'>

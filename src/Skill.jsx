@@ -15,7 +15,7 @@ import ps from '/ps.svg'
 
 export default function Skill(){
     return(
-        <div className="skill flex flex-col items-center">
+        <section className="skill flex flex-col items-center" id="skill" >
             <div className='flex flex-col items-center'>
                 <li className='superpower'>I Thrive In</li>
                 <h1 className='ski'>Skills</h1>
@@ -41,6 +41,6 @@ export default function Skill(){
                     <img src={ps} className='logoo ps' />                
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

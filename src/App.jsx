@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Home />
+      <Navbar/>
+      <Home/>
       <Skill />
       <Work />
       {/* <Home /> */}

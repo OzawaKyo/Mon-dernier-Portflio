@@ -7,6 +7,12 @@ import ig from '/ig.png'
 
 import './Home.css'
 export default function Home(){
+
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+      };
+
     return(
         <div className='container flex flex-row content-center'>
             <div className='ideas flex flex-col gap-11'>
@@ -16,7 +22,7 @@ export default function Home(){
                 </div>
                 <h1 className='bring'>I bring <span className='blue'>ideas</span> to web.</h1>
                 <p className="sol">Transforming complex ideas into elegant and scalable front-end solutions.</p>
-                <button className="view">View My Work</button>
+                <button className="view" onClick={() => scrollToSection('works')}>View My Work</button>
             </div>
             <div className='flex flex-col items-center gap-16'>
                 <img className='hero' src={hero}  />
@@ -26,8 +32,8 @@ export default function Home(){
                         <h1 className="socials">Socials</h1>
                     </div>
                     <div className='flex items-center justify-evenly'>
-                        <img className='logo' src={git} />
-                        <img className='logo' src={ig} />
+                        <a href="https://github.com/ozawakyo" target='_blank' rel="noreferrer"><img className='logo' src={git} /></a>
+                        <a href="https://www.instagram.com/simoamarcha/" target='_blank' rel="noreferrer"><img className='logo' src={ig} /></a>
                         <img className='logo' src={gmail} />
                     </div>
                 </div>
