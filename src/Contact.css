@@ -1,0 +1,49 @@
+.contact{
+    padding: 3em;
+    background-color: #219EBC;
+}
+.create{
+    width: 604px;
+    height: 83px;
+    line-height: 43px !important;
+    margin-bottom: 3em;
+}
+.inputs{
+    gap: 51px;
+}
+.kk{
+    padding: 2em;
+}
+.input1{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 43px;
+    width: 400px;
+    height: 90px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    outline: none;  
+}
+.input1::placeholder {
+    text-align: center;
+    color: white;
+}
+.input2{
+    height: 220px;
+}
+.button1{
+    width: 874px;
+    height: 115px;
+    border-radius: 36px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FBE99D 100%);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 43px;
+
+}

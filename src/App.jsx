@@ -1,3 +1,4 @@
+import Contact from './Contact'
 import Home from './Home'
 import Navbar from './Navbar'
 import Skill from './Skill'
@@ -11,7 +12,7 @@ function App() {
       <Home/>
       <Skill />
       <Work />
-      {/* <Home /> */}
+      <Contact />
     </>
   )
 }

@@ -13,7 +13,7 @@ export default function Navbar(){
                 <h1 className="navlist"onClick={() => scrollToSection('skill')}>Skills</h1>
                 <h1 className="navlist"onClick={() => scrollToSection('works')}>Works</h1>
                 <h1 className="navlist" onClick={() => scrollToSection('skill')}>Blog</h1>
-                <button className="lets navlist" >Let's Talk</button>
+                <button className="lets navlist" onClick={() => scrollToSection('contact')} >Let's Talk</button>
             </div>
         </nav>
     )
