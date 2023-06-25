@@ -35,7 +35,7 @@
     height: 220px;
 }
 .button1{
-    width: 874px;
+    width: 850px;
     height: 115px;
     border-radius: 36px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FBE99D 100%);
@@ -46,4 +46,132 @@
     font-weight: 500;
     line-height: 43px;
 
+}
+@media (max-width:1200px) {
+    .build{
+        font-size: 50px !important;
+    }
+    .create{
+        font-size: 16px !important;
+        width: 410px;
+        margin-top: 0em !important;
+    }
+}
+@media (max-width:1000px) {
+    .build{
+        font-size: 45px !important;
+    }
+    .hand{
+        width: 90px;
+        height: 90px;
+    }
+    .input1{
+        width: 310px;
+    }
+    .button1{
+        width: 670px;
+    }
+}
+@media (max-width:900px) {
+    .build{
+        font-size: 40px !important;
+    }
+    .hand{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width:800px) {
+    .build{
+        font-size: 30px !important;
+    }
+    .hand{
+        width: 70px;
+        height: 70px;
+    }
+    .create{
+        font-size: 15px !important;
+    }
+    .input1{
+        width: 260px;
+    }
+    .button1{
+        width: 570px;
+    }
+}
+@media (max-width:650px) {
+    .build{
+        font-size: 25px !important;
+    }
+    .hand{
+        width: 50px;
+        height: 50px;
+    }
+    .create{
+        font-size: 12px !important;
+        width: 310px;
+    }
+    .input1{
+        width: 240px;
+    }
+    .button1{
+        width: 530px;
+    }
+}
+@media (max-width:560px) {
+    .build{
+        font-size: 20px !important;
+    }
+    .hand{
+        width: 50px;
+        height: 50px;
+    }
+    .create{
+        font-size: 11px !important;
+        width: 300px;
+    }
+    .gr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input1{
+        width: 450px;
+    }
+    .button1{
+        width: 450px;
+    }
+}
+@media (max-width:500px) {
+    .input1{
+        width: 400px;
+    }
+    .button1{
+        width: 400px;
+    }
+}
+@media (max-width:450px) {
+
+    .input1{
+        width: 350px;
+    }
+    .button1{
+        width: 350px;
+    }
+    .frr{
+        flex-direction: column;
+        gap: 0 !important;
+        padding-bottom: 2em;
+    }
+    .build{
+        font-size: 21px !important;
+    }
+    .hand{
+        width: 50px;
+        height: 50px;
+    }
+    .create{
+        font-size: 13px !important;
+        width: 330px;
+    }
 }
