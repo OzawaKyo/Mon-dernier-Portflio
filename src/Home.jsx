@@ -34,7 +34,7 @@ export default function Home(){
                     <div className='flex items-center justify-evenly'>
                         <a href="https://github.com/ozawakyo" target='_blank' rel="noreferrer"><img className='logo' src={git} /></a>
                         <a href="https://www.instagram.com/simoamarcha/" target='_blank' rel="noreferrer"><img className='logo' src={ig} /></a>
-                        <img className='logo' src={gmail} />
+                        <img onClick={() => scrollToSection('contact')} className='logo' src={gmail} />
                     </div>
                 </div>
             </div>
