@@ -4,7 +4,7 @@
     padding-bottom: 3em;
 }
 .projects{
-    background-image: url(/cornerleft.png),url(/cornerright.png);
+    /* background-image: url(/cornerleft.png),url(/cornerright.png); */
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-position: top left , bottom right;
     padding: 6em;
