@@ -160,9 +160,9 @@
 }
 @media (max-width:1280px) {
     .container{
-        margin:5em;
+        margin: 4em;
         margin-top: 2em;
-        justify-content: space-around ;
+        justify-content: space-around !important;
     }
     .hero{
         width: 318px;
@@ -195,13 +195,18 @@
 }
 @media (max-width:1025px) {
     .container{
-        margin: 7em;
+        margin-left: 0em;
+    }
+}
+@media (max-width:1022px) {
+    .container{
+        margin-left: 6em;
         margin-top: 2em;
         margin-bottom: 5em;
-        flex-direction: column !important;
-        align-items:  center;
-        gap: 6em;
-        align-self: center !important;
+        /* flex-direction: column !important; */
+        /* align-items:  center; */
+        gap: 0em;
+        /* align-self: center !important; */
     }
     .bodyy{
         display: flex;
@@ -211,13 +216,23 @@
 }
 @media (max-width:900px) {
     .container{
-        margin: 0em;
+        flex-direction: column !important;
+        align-self: center !important;
+        align-items:  center;
+        gap: 5em;
     }
     .ideas{
         margin-left:0em;
     }
     .sol{
         width: 400px;
+    }
+}
+@media (max-width:860px) {
+    .container{
+        margin: 0em !important;
+        margin-top: 2em !important;
+        margin-bottom: 5em !important;
     }
 }
 @media (max-width:600px) {
