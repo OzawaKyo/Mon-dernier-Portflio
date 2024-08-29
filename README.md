@@ -12,7 +12,4 @@ Ce projet est un portfolio personnel développé avec React, Tailwind CSS et Fra
 
 - ## Déploiement
 
-Le projet est configuré pour être déployé sur Firebase Hosting. Pour déployer, utilisez la commande suivante :
-```sh
-firebase deploy
-```
+Le projet est configuré pour être déployé sur Firebase Hosting.
