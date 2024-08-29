@@ -13,3 +13,4 @@ Ce projet est un portfolio personnel développé avec React, Tailwind CSS et Fra
 - ## Déploiement
 
 Le projet est configuré pour être déployé sur Firebase Hosting.
+Voici le lien pour sa demo : ozawakyo-21.web.app
